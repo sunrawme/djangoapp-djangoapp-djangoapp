@@ -42,7 +42,7 @@ pipeline {
             steps {
                 echo "This echoes the deploy"
 
-                sh "docker compose up -d"
+                sh "docker compose down && docker compose up -d"
             }
         }
     }
