@@ -2,7 +2,6 @@
 version : "3.3"
 services:
   web:
-     image:
-        context: sunraw/notes-app
+     image: sunraw/notes-app:latest
      ports:
          - "8000:8000"
